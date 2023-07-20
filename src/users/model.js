@@ -15,7 +15,8 @@ const User = connection.define("Users", {
     password: {
         type: DataTypes.STRING,
         allowNull: false
-    }},
+    }
+},
     {indexes: [{unique: true, fields:["username", "email"]}]}
 )
 

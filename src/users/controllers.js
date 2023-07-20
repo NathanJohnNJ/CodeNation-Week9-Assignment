@@ -88,10 +88,11 @@ const deleteUser = async (req, res) => {
 };
 
 
+
 module.exports = {
     registerUser,
     getUsers,
     login,
     updateUser,
-    deleteUser
+    deleteUser,
 }
